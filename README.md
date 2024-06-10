@@ -38,3 +38,32 @@ To get a local copy up and running, follow these simple steps:
 - The timer counts down to the date specified in the JavaScript file.
 
 ## Project Structure
+countdown-timer/
+│
+├── css/
+│ └── count2.css # Styles for the countdown timer
+│
+├── js/
+│ └── count3.js # JavaScript logic for the countdown timer
+│
+├── count1.html # Main HTML file
+│
+└── README.md # Project documentation
+
+
+## Customization
+### Changing the Target Date
+To change the target date, update the `targetDate` variable in the `count3.js` file:
+```javascript
+const targetDate = "31 December 2024 12:59:59 PM";
+```
+
+## Modifying Styles
+You can modify the styles in the count2.css file to suit your preferences. For example, you can change the font, colors, layout, and more.
+
+## License
+Distributed under the MIT License. See LICENSE for more information.
+
+This `README.md` file provides an overview of the project, instructions for getting started, usage details, project structure, customization options, and license information. Adjust the repository URL in the "Installation" section and any other details to match your specific project and preferences.
+
+
